@@ -3,6 +3,17 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+h1 {
+  text-align: center;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 form {
   width: 30rem;
   margin: 3rem auto;
@@ -29,6 +40,10 @@ select {
   color: rgb(61, 58, 58);
 }
 
+textarea {
+  resize: none;
+}
+
 input:focus,
 textarea:focus {
   background-color: rgb(219, 190, 253);
@@ -45,6 +60,7 @@ button {
   padding: 0.5rem 1.5rem;
   border-radius: 4px;
   cursor: pointer;
+  margin: auto auto;
 }
 
 button:hover {
